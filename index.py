@@ -7,10 +7,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    #eason_record = wins()
-    #treak_record = streak()
-    #lost = determine_if_lost()
-    #html = "<!DOCTYPE html><html><head><style>*{font-family: Arial, sans-serif;text-align: center;position: relative;}.top_title{font-size:50pt;top: 10%;}.big_text{font-size: 150pt;top: 35%;}.record{font-size: 50pt;top: 50%;}</style><title>Has FSU Lost Yet?</title></head><body><div class=\"top_title\">Has FSU Lost Yet?</div><div class=\"big_text\"><b>" + lost + "</b></div><div class=\"record\" id =\"winningStreak\">Winning Streak: " + streak_record + "</div><div class=\"record\" id=\"thisSeason\">This Season: " + season_record + "</div><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');ga('create', 'UA-56656391-1', 'auto');ga('require', 'displayfeatures');ga('send', 'pageview');</script></body></html>"
     return get_html()
 
 def wins():
