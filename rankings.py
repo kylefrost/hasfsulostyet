@@ -15,8 +15,10 @@ def get_rankings():
         rankings.append(str(team.text))
 
     fsu_rankings = [i for i, team in enumerate(rankings) if team.endswith('Florida State')]
-
-    return rankings.pop(fsu_rankings.pop(2))[0]
+    
+    current_cfp_ranking = rankings.pop(fsu_rankings.pop(2))[0]
+    print current_cfp_ranking
+    return current_cfp_ranking
 
 if __name__ == "__main__":
     main()
