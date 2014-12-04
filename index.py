@@ -61,7 +61,7 @@ def countdown_script():
            var paststring=montharray[m-1]+" "+d+", "+yr
            var difference=(Math.round((Date.parse(todaystring)-Date.parse(paststring))/(24*60*60*1000))*1)
            difference+=""
-           document.write(difference)
+           document.write("<div class=\"record\">" + difference + "</div>")
            }
            //enter the count up date using the format year/month/day
            countup(2012,11,24)
