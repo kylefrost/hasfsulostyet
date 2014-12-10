@@ -68,7 +68,7 @@ def countdown_script():
                document.write("<div class=\\"record\\">Days since last loss: " + difference + "</div>")
                }
                //enter the count up date using the format year/month/day
-               countup(2014,12,06)
+               countup(2015,01,01)
                </script>"""
     else:
         return """<script>
