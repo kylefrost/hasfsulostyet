@@ -1,3 +1,7 @@
+# This project is no longer supported.
+
+It was fun while it lasted. #BlameJameis
+
 hasfsulostyet
 =============
 
